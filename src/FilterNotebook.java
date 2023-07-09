@@ -205,8 +205,6 @@ public class FilterNotebook {
             String caseColor = str.toLowerCase();
             filterParams.put("caseColor", caseColor);
         }
-
-        System.out.println(filterParams);
     }
 
     public void ClearFilter(){
