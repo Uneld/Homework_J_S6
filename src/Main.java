@@ -37,10 +37,9 @@ public class Main {
         filter.SetFilterParamsTask();
         List<Notebook> filteredNotebooks = filter.FilterNotebook(nbSet);
         System.out.println(filteredNotebooks);
-        filter.ClearFilter();
 
-        filter.SetFilterParamsPrice();
-        filter.SetFilterParamsCapacityRAM();
+        filter.ClearFilter();
+        filter.SetFilterParamsALL();
         filteredNotebooks = filter.FilterNotebook(nbSet);
         System.out.println(filteredNotebooks);
     }
